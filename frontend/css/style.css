@@ -1,2 +1,78 @@
 /* Your custom styles go here.
    Use Bootstrap classes first, and write your own CSS only when you need to. */
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.brand {
+  color: #1d4ed8;
+}
+.nav-logoo {
+  width: 45px;
+  height: 45px;
+}
+#home {
+  min-height: 100vh;
+  background-image: url("/frontend/Images/Banner3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+.home-content {
+  max-width: 45rem;
+  color: #033570;
+}
+
+.home-btn {
+  background-color: #033570;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.home-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 16px rgba(3, 53, 112, 0.4);
+}
+.card {
+  background-color: #033570;
+}
+.card-body {
+  color: white;
+}
+#summary {
+  min-height: 100vh;
+  background-image: url("/frontend/Images/Banner4.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.summary-title {
+  padding-top: 3rem;
+  font-size: 3.4rem;
+  color: #033570;
+  font-weight: 700;
+}
+#view-expenses {
+  min-height: 100vh;
+  background-image: url("/frontend/Images/Banner5.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.view-expenses-title {
+  padding-top: 1rem;
+  font-size: 3.4rem;
+  color: #033570;
+  font-weight: 700;
+}
+.table-responsive {
+  background-color: #033570;
+}
+
+/*  */
