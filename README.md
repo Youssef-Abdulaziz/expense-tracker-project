@@ -51,9 +51,13 @@ Screenshots are in the front
 
 I think it was dealing with the backend side using express and understanding how to the front talk to the backend. I solved this isssue with searching more and the more i searched is the more im going to know
 
-<!-- DEMO VIDEO -->
+## DEMO VIDEO
 
 https://drive.google.com/file/d/1zJ2LQSD4A43Rz39vuY6L0goUKWy9w93T/view?usp=sharing
+
+## Repo Link
+
+https://github.com/Youssef-Abdulaziz/expense-tracker-project
 
 ## Quick note
 
