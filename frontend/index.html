@@ -50,46 +50,34 @@
       <section id="summary">
         <div class="container">
           <h2 class="text-center summary-title">Expenses Summary</h2>
-          <div class="row g-2 p-5 row-cols-1 row-cols-md-3 g-3">
-            <div class="col">
-              <div
-                class="card text-center h-100 shadow rounded-4"
-                style="min-height: 15rem"
-              >
-                <div
-                  class="card-body d-flex flex-column justify-content-center"
-                >
-                  <h6 class="card-title">Total</h6>
-                  <p class="fs-4 fw-bold" id="summary-total">$0.00</p>
-                </div>
+          <div class="summary-grid">
+            <div
+              class="card text-center h-100 shadow rounded-4"
+              style="min-height: 15rem"
+            >
+              <div class="card-body d-flex flex-column justify-content-center">
+                <h6 class="card-title">Total</h6>
+                <p class="fs-4 fw-bold" id="summary-total">$0.00</p>
               </div>
             </div>
 
-            <div class="col">
-              <div
-                class="card text-center h-100 shadow rounded-4"
-                style="min-height: 15rem"
-              >
-                <div
-                  class="card-body d-flex flex-column justify-content-center"
-                >
-                  <h6 class="card-title">Number of expenses</h6>
-                  <p class="fs-4 fw-bold" id="summary-count">0</p>
-                </div>
+            <div
+              class="card text-center h-100 shadow rounded-4"
+              style="min-height: 15rem"
+            >
+              <div class="card-body d-flex flex-column justify-content-center">
+                <h6 class="card-title">Number of expenses</h6>
+                <p class="fs-4 fw-bold" id="summary-count">0</p>
               </div>
             </div>
 
-            <div class="col">
-              <div
-                class="card text-center h-100 shadow rounded-4"
-                style="min-height: 15rem"
-              >
-                <div
-                  class="card-body d-flex flex-column justify-content-center"
-                >
-                  <h6 class="card-title">Highest expense</h6>
-                  <p class="fs-4 fw-bold" id="summary-highest">0</p>
-                </div>
+            <div
+              class="card text-center h-100 shadow rounded-4"
+              style="min-height: 15rem"
+            >
+              <div class="card-body d-flex flex-column justify-content-center">
+                <h6 class="card-title">Highest expense</h6>
+                <p class="fs-4 fw-bold" id="summary-highest">0</p>
               </div>
             </div>
           </div>
@@ -120,7 +108,7 @@
                   <div class="invalid-feedback" id="error-title"></div>
                 </div>
 
-                <div class="col-6 col-md-3">
+                <div class="col-12 col-md-3">
                   <label for="input-amount" class="form-label">Amount</label>
                   <input
                     type="number"
@@ -133,7 +121,7 @@
                   <div class="invalid-feedback" id="error-amount"></div>
                 </div>
 
-                <div class="col-6 col-md-3">
+                <div class="col-12 col-md-3">
                   <label for="input-category" class="form-label"
                     >Category</label
                   >
@@ -152,7 +140,7 @@
                   <div class="invalid-feedback" id="error-category"></div>
                 </div>
 
-                <div class="col-6 col-md-2 col-sm-12">
+                <div class="col-12 col-md-2">
                   <label for="input-date" class="form-label">Date</label>
                   <input
                     type="date"
@@ -163,10 +151,11 @@
                   <div class="invalid-feedback" id="error-date"></div>
                 </div>
 
-                <div
-                  class="col-6 col-md-2 col-sm-12 d-flex align-items-end mt-3 mt-md-5"
-                >
-                  <button type="submit" class="btn btn-primary w-100">
+                <div class="col-12 col-md-2 d-flex align-items-end">
+                  <button
+                    type="submit"
+                    class="btn btn-primary w-100 mt-2 mt-md-0 text-nowrap"
+                  >
                     Add
                   </button>
                 </div>
